@@ -17,3 +17,7 @@ Open `index.html` in a browser. For GitHub Pages, upload the project contents to
 - Disclose AI-generated/AI-assisted media in the assignment report if applicable to the supplied Gemini videos.
 - Verify Smart Land's official contact details before publishing.
 - Complete the group list with exactly seven students in `TEAM.txt`.
+
+
+## Image optimization
+All bundled image assets are converted to WebP and local HTML/CSS references use the .webp files. Remote Unsplash backgrounds remain remotely hosted and use the `auto=format` parameter so the image service can negotiate an efficient format for supported browsers. Three additional user-provided images are included in `assets/images/` as WebP files.
